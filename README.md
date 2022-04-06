@@ -7,6 +7,6 @@ e implementarlas.
 - CalculadorHU se presenta como base de lo que deben implementar.
 - Los parámetros deben dejarlos tal cual
 - Un ejemplo de uso seria:
-´´´bash
+<pre><code>
 mvn compile  exec:java -Dexec.mainClass="ar.edu.frba.utn.dds.mihuella.CalculadorHU" -Dexec.args="-p xx.props -m mediciones.csv"
-´´´
+</code></pre>

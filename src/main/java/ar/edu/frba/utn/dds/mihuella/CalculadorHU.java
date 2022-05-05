@@ -12,9 +12,9 @@ public class CalculadorHU {
     public static void main(String[] args) {
 
 
-        ArgumentParser parser = ArgumentParsers.newFor("Checksum").build()
+        ArgumentParser parser = ArgumentParsers.newFor("Calculador de HU").build()
                 .defaultHelp(true)
-                .description("Calculate checksum of given files.");
+                .description("Calcula la huella de carbono de un conjunto de mediciones");
         parser.addArgument("-m", "--mediciones").required(true)
                 .help("Archivo de mediciones");
         parser.addArgument("-p", "--params").required(true)
